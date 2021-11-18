@@ -2415,7 +2415,7 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border-radius: 5px;
+		border-radius: 10px;
 		border: 0;
 		display: inline-block;
 		position: relative;
@@ -3229,6 +3229,7 @@ input, select, textarea {
 
 		}
 
+
 /* Menu */
 
 	#page-wrapper {
@@ -3460,7 +3461,7 @@ input, select, textarea {
 			font-size: 1em;
 			font-weight: 200;
 			letter-spacing: 0.1em;
-			line-height: 2;
+			line-height: 0;
 			text-transform: uppercase;
 		}
 
@@ -3801,7 +3802,7 @@ input, select, textarea {
 			}
 
 			.wrapper.spotlight .image {
-				border-radius: 100%;
+				border-radius: 15%;
 				margin: 0 3em 2em 0;
 				width: 22em;
 				overflow: hidden;
@@ -3809,7 +3810,7 @@ input, select, textarea {
 			}
 
 				.wrapper.spotlight .image img {
-					border-radius: 100%;
+					border-radius: 1%;
 					width: 100%;
 				}
 
@@ -4157,3 +4158,20 @@ input, select, textarea {
 		}
 
 	}
+
+	#img-mundial{
+		width: 100%;
+		height : 15em;
+	}
+
+	@media screen and (max-width: 375px){
+		#img-mundial {
+			width: 13em;
+			height : 15em;
+		}
+	}
+
+  #jovens{
+	width: 20em;
+	height : 15em;
+  }
